@@ -45,7 +45,7 @@
             this.areaOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.areaOutput.Location = new System.Drawing.Point(41, 300);
             this.areaOutput.Name = "areaOutput";
-            this.areaOutput.Size = new System.Drawing.Size(284, 25);
+            this.areaOutput.Size = new System.Drawing.Size(284, 63);
             this.areaOutput.TabIndex = 19;
             this.areaOutput.Text = "...";
             // 
@@ -132,6 +132,7 @@
             this.Controls.Add(this.areaButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Area Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
