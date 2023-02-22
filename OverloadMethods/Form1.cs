@@ -12,6 +12,16 @@ namespace OverloadMethods
 {
     public partial class Form1 : Form
     {
+
+        //First method: 1 parameter(diameter)
+        //use to return perimeter of a circle (3.14 * diameter)
+
+        //Second method: 2 parameters(length and width)
+        //use to return perimeter of rectangle (2length + 2width)
+
+        //Third method: 3 parameters (side a, b, and c)
+        //use to return perimeter of a triangle (a + b + c)
+
         public Form1()
         {
             InitializeComponent();
@@ -49,6 +59,11 @@ namespace OverloadMethods
         {
             double area = length * width;
             return area;
+        }
+
+        public double Side1(double diameter)
+        {
+
         }
     }
 }
